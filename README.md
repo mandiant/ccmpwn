@@ -19,7 +19,7 @@ System Center Configuration Manager (SCCM) clients make use of the CcmExec servi
 
 ### exec
 
-![image](https://github.com/googlestaging/ccmpwn/assets/32691065/7a40220b-91e3-4670-bc59-1736b83122b6)
+![image](https://github.com/googlestaging/ccmpwn/assets/32691065/af6986e0-bddc-4dab-839c-1753f06cc6ba)
 
 ![image](https://github.com/googlestaging/ccmpwn/assets/32691065/e0c73bfe-24d1-4695-875d-6facd3085652)
 
