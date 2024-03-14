@@ -19,7 +19,8 @@ System Center Configuration Manager (SCCM) clients make use of the CcmExec servi
 
 ### exec
 
-![image](https://github.com/googlestaging/ccmpwn/assets/32691065/7c40f92f-7b2b-4a84-9550-eefee25d1688)
+![image](https://github.com/googlestaging/ccmpwn/assets/32691065/7a40220b-91e3-4670-bc59-1736b83122b6)
+
 
 ![image](https://github.com/googlestaging/ccmpwn/assets/32691065/e0c73bfe-24d1-4695-875d-6facd3085652)
 
@@ -29,6 +30,7 @@ System Center Configuration Manager (SCCM) clients make use of the CcmExec servi
 ![til](/images/smb_auths.png "Demo")
 
 ### query
-![image](https://github.com/googlestaging/ccmpwn/assets/32691065/32766633-920b-4679-b0be-d44b9f81c9f4)
+![image](https://github.com/googlestaging/ccmpwn/assets/32691065/01239203-bded-4264-9b0c-8e9db2832242)
+
 
 
