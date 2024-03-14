@@ -25,7 +25,7 @@ System Center Configuration Manager (SCCM) clients make use of the CcmExec servi
 
 ### coerce
 
-![image](https://github.com/googlestaging/ccmpwn/assets/32691065/1fb5b1d4-2b3b-46aa-ae66-a2b2a85067f0)
+![image](https://github.com/googlestaging/ccmpwn/assets/32691065/bfe00b0e-c563-47b9-9623-2c3850eb6d2d)
 
 ![image](https://github.com/googlestaging/ccmpwn/assets/32691065/8784f699-8f09-478b-a538-ee02bd94f960)
 
