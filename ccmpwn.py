@@ -225,7 +225,7 @@ class CCMEXEC:
             else: 
                 raise
         if resp['TranslatedNames']['Names'] == []:
-            logging.error("No one is currently logged on")
+            logging.error("No one is currently logged in")
         else:
             for item in resp['TranslatedNames']['Names']:
                 if item['Use'] != SID_NAME_USE.SidTypeUnknown:
@@ -360,11 +360,11 @@ v1.0.0\n""" + text_end)
 
     status_parser = subparsers.add_parser('query', help='query remote users via WMI')
 
-    create_parser = subparsers.add_parser('coerce', help='coerce SMB/HTTP authentication for all logged on users')
+    create_parser = subparsers.add_parser('coerce', help='coerce SMB/HTTP authentication for all logged-in users')
     create_parser.add_argument('-computer', action='store', required=True, help='computer for target to authenticate to')
     create_parser.add_argument('-method', action='store', required=False, help='authentication method (smb/http). Default: smb', default='smb')
 
-    create_parser = subparsers.add_parser('exec', help='execute AppDomainManager DLL for all logged on users')
+    create_parser = subparsers.add_parser('exec', help='execute AppDomainManager DLL for all logged-in users')
     create_parser.add_argument('-dll', action='store', required=True, help='AppDomainManager DLL payload')
     create_parser.add_argument('-config', action='store', required=True, help='Config file to run DLL payload')
 
