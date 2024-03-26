@@ -4,7 +4,7 @@
 
 ## Explanation
 
-System Center Configuration Manager (SCCM) clients make use of the CcmExec service, which initiates the execution of **C:\Windows\CCM\SCNotification.exe** for **every logged-in user**. Leveraging the fact that SCNotification.exe is a .NET application, red team operators could modify its configuration file (**C:\Windows\CCM\SCNotification.exe.config**) to execute an AppDomainManager payload or coerce authentications as the affected users. This technique provides operators an alternative approach to credential dumping or process injection. Operators must have local administrator privileges on target system.
+System Center Configuration Manager (SCCM) clients make use of the CcmExec service, which initiates the execution of **C:\Windows\CCM\SCNotification.exe** for **every logged-in user**. Leveraging the fact that SCNotification.exe is a .NET application, red team operators could modify its configuration file (**C:\Windows\CCM\SCNotification.exe.config**) to execute an AppDomainManager payload or coerce authentications as the affected users. This technique provides operators an alternative approach to credential dumping or process injection. Operators must have local administrator privileges on target system. Read more about this technique at [SeeSeeYouExec: Windows Session Hijacking via CcmExec].
 
 `ccmpwn.py` can perform the following actions:
 - **exec** - execute an AppDomainManager payload for every logged-in user. Specify your `-dll` and malicious `-config` to upload to target
@@ -32,4 +32,8 @@ System Center Configuration Manager (SCCM) clients make use of the CcmExec servi
 ### query
 
 ![image](https://github.com/googlestaging/ccmpwn/assets/32691065/def8fb51-687a-41fe-942d-641f58f9ee99)
+
+
+[SeeSeeYouExec: Windows Session Hijacking via CcmExec]: https://cloud.google.com/blog/topics/threat-intelligence/windows-session-hijacking-via-ccmexec
+
 
