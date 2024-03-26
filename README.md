@@ -1,4 +1,4 @@
-# ccmpwn.py
+# CcmPwn
 
 `ccmpwn.py` - lateral movement script that leverages the CcmExec service to remotely hijack user sessions.
 
